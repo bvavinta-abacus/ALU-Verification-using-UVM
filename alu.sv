@@ -1,7 +1,7 @@
 ///////////////////////////////////////////////////////////////
 //
 // Company: Abacus Semiconductor Corporation
-// Engineer:  <include your name here, list can grow>
+// Engineer:  Balaji Rao Vavintaparthi.
 //
 // Copyright (C) 2020-2025 Abacus Semiconductor Corporation
 //
@@ -18,6 +18,18 @@
 // Description:   Example Description
 //                   for the Server-on-a-Chip and in identical form
 //                   for the HRAM smart multi-homed memory
+// Design Name:   ALU_Verification
+// Module Name:   alu.sv
+// Project Name:  ALU_Verification_UVM
+// Target Device: FPGA: AMD/Xilinx Virtex UltraScale VU9P
+//                ASIC: TSMC 28nm HPC+
+// Tool versions: Synopsys VCS, Cadence Xcelium, Mentor Questa
+// Description:   This module implements an 8-bit Arithmetic Logic Unit (ALU) 
+//                capable of performing basic arithmetic and logical operations. 
+//                The ALU supports addition, subtraction, multiplication, and division.
+//                The output is registered on the positive edge of the clock, and a 
+//                carry-out flag is provided for addition operations. The ALU is designed
+//                for integration into larger digital systems, such as CPUs or DSPs.
 //
 // Dependencies:  None
 //
